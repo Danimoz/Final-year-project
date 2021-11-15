@@ -1,0 +1,17 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.our-services {
+    position: relative;
+    padding: 1rem 0;
+
+    .input-group {
+
+        .btn {
+
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}
